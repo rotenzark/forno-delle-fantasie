@@ -119,7 +119,7 @@
   if (hasGsap && !reducedMotion) {
     gsap.utils.toArray('.reveal').forEach(function (el) {
       gsap.fromTo(el, { opacity: 0, y: 26 }, {
-        opacity: 1, y: 0, duration: .7, ease: 'power2.out',
+        opacity: 1, y: 0, duration: .7, ease: 'power2.out', immediateRender: false,
         scrollTrigger: { trigger: el, start: 'top 88%', once: true },
       });
     });
