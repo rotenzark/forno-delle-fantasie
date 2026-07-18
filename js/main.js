@@ -114,7 +114,7 @@
     // il fill del gesto-firma non deve mai restare invisibile
     document.querySelectorAll('.fant-fill').forEach(function (f) { f.style.clipPath = 'inset(0 0% 0 0)'; });
   }
-  setTimeout(showAllReveals, 1500);
+  setTimeout(function () { if (!hasGsap || reducedMotion) showAllReveals(); }, 1500);
 
   if (hasGsap && !reducedMotion) {
     gsap.utils.toArray('.reveal').forEach(function (el) {
