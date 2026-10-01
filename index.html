@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
 <title>Il Forno Caffè delle Fantasie — Pane e fantasia dal 1962 · Via Carlo Dolci 38, Milano</title>
 <meta name="description" content="Il Forno Caffè delle Fantasie: pane, brioches, pizza al taglio, pasta fresca e caffè in Via Carlo Dolci 38 a Milano (San Siro). Una famiglia che sforna pane e fantasia dal 1962. Aperti dal lunedì al sabato, 7–20 orario continuato.">
 <link rel="canonical" href="https://rotenzark.github.io/forno-delle-fantasie/">
@@ -15,9 +16,7 @@
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Commissioner:wght@400;500;600;700&family=Shantell+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 <link rel="stylesheet" href="css/styles.css?v=2">
 <script type="application/ld+json">
 {
@@ -258,7 +257,7 @@
     <div class="dove-media">
       <figure class="polaroid reveal" data-full="img/facciata.jpg"><img src="img/facciata.jpg" alt="La facciata del Forno Caffè delle Fantasie: insegna crema con la grande C marrone e tenda parasole" width="1200" height="1600"></figure>
       <div class="mappa reveal">
-        <iframe title="Mappa: Il Forno Caffè delle Fantasie, Via Carlo Dolci 38, Milano" src="https://www.google.com/maps?q=Il+Forno+Caff%C3%A8+delle+Fantasie,+Via+Carlo+Dolci+38,+20148+Milano&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        <div class="mappa-clic" data-mappa-clic style="--mappa-h: 320px"><template><iframe title="Mappa: Il Forno Caffè delle Fantasie, Via Carlo Dolci 38, Milano" src="https://www.google.com/maps?q=Il+Forno+Caff%C3%A8+delle+Fantasie,+Via+Carlo+Dolci+38,+20148+Milano&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/place/Il+Forno+Caff%C3%A8+delle+Fantasie/@45.4737523,9.1411527,17z" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
       </div>
     </div>
   </section>
@@ -291,6 +290,7 @@
   <p class="foot-brand"><span class="brand-c" aria-hidden="true">C</span> Il Forno Caffè delle Fantasie</p>
   <p data-i18n="foot.dal">Pane e fantasia dal 1962 · Via Carlo Dolci 38, 20148 Milano · <a href="tel:+39024042022">02 404 2022</a></p>
   <p class="foot-demo" data-i18n="foot.demo">Sito dimostrativo (concept) realizzato da Bespoke Studio con dati e foto pubblici — non è il sito ufficiale dell'attività.</p>
+  <p class="privacy-link"><a href="privacy.html">Privacy</a></p>
 </footer>
 
 <div class="actionbar" id="actionBar">
@@ -307,5 +307,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
 <script src="js/main.js?v=4" defer></script>
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
